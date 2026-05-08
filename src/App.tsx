@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from "react";
-import tweetsData from "./data/tweets.json";
 import { supabase } from "./utils/supabase";
 import type { Tweet } from "./types/Tweet";
 import {
